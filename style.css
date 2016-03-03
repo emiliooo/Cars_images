@@ -1,0 +1,170 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+
+
+.black{
+    width: 100%;
+    height:600px;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-color: black;
+
+ }
+.black img{
+
+    float: left;
+}
+
+.arrow{
+    background-color: black;
+    text-align: center;
+}
+
+.pic1{
+    margin-top: 5em;
+    display: inline-block;
+    padding-right: 50px;
+}
+.pic2{
+    margin-top: 5em;
+    width: 370px;
+    height: 288px;
+    float:right;
+    margin-right: 25px;
+}
+
+.pic5{
+
+    padding-right: 65px;
+
+}
+
+.pic22{
+    margin-top: 50px;
+
+}
+
+.middle{
+    margin-top: 30px;
+
+}
+
+.lista ul li {
+
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    float: left;
+
+}
+.menu ul li a{
+
+    color:white;
+    text-decoration: none;
+}
+.menu ul li{
+   font-size: 25px;
+    display: inline;
+    margin-left:20px ;
+    float: right;
+
+}
+.lista ul li :hover{
+    opacity: 0.5;
+    transition: .8s all;
+    -webkit-transition: .8s all;
+    -moz-transition: .8s all;
+    -o-transition: .8s all;
+    -ms-transition: .8s all;
+}
+
+.lista{
+    margin-left: 26px;
+
+}
+
+.middle:hover {
+    opacity: 0.5;
+    transition: .6s all;
+    -webkit-transition: .6s all;
+    -moz-transition: .6s all;
+    -o-transition: .6s all;
+    -ms-transition: .6s all;
+}
+
+.pic2 img:hover{
+
+    opacity: 0.5;
+    transition: .6s all;
+    -webkit-transition: .6s all;
+    -moz-transition: .6s all;
+    -o-transition: .6s all;
+    -ms-transition: .6s all;
+}
+
+.pic1 img:hover{
+
+    opacity: 0.5;
+    transition: .6s all;
+    -webkit-transition: .6s all;
+    -moz-transition: .6s all;
+    -o-transition: .6s all;
+    -ms-transition: .6s all;
+}
+
+.MenuDown ul li a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+.MenuDown ul li{
+    font-size: 26px;
+    display: inline;
+    margin-left:20px ;
+
+}
+
+.MenuDown{
+
+    padding-top: 50px;
+}
+
+
+
+
+.image-frame {
+    position: relative;
+    color: #333;
+}
+.image-frame .image-caption {
+    display: none;
+    opacity: 0.8;
+    width: 290px;
+    position: absolute;
+    bottom: 120px;
+    padding: 5px;
+    text-align: center;
+    color:red;
+    font-size: 40px;
+}
+
+.menu ul li:hover{
+
+
+    transform: rotateY(360deg);
+    transition: .9s all;
+    -webkit-transition: .9s all;
+    -moz-transition: .9s all;
+    -o-transition: .9s all;
+    -ms-transition: .9s all;
+}
+
+.menu ul li a:hover{
+
+    color:red;
+
+}
